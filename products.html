@@ -1,0 +1,360 @@
+<html>
+<head>
+<title>  </title>
+  <link rel="stylesheet" href="ASSESST/CSS/style.css">
+  <link rel="icon" type="image/x-icon" href="ASSESST/IMAGE/LOGO.png">
+</head>
+
+<body>
+
+<header>
+<br>
+<CENTER>
+<img src="ASSESST/IMAGE/LOGO.png" size="10px" WIDTH="15%" HEIGHT="20%">
+</CENTER>
+</header>
+<BR>
+<!------------------------ HEADER YG KAT ATAS TU ---------------------->
+
+<div class="topnav" id="navbar">
+  <a class="active" href="index.html"><img src="ASSESST/IMAGE/HOME.png" width="30px"> </a>
+<h6>
+  <a href="home.html">HOME</a>
+  <a href="brands.html">BRANDS</a>
+  <a href="products.html"> PRODUCTS </a>
+  <a href="milkypedia.html"> MILKYPEDIA </a>
+  <a href="our_company.html">OUR COMPANY</a>
+  <a href="contact_us.html">CONTACT US</a>
+</h6>
+</div>
+
+<!------------------------ HEADER YG KAT ATAS TU ---------------------->
+
+<BR>
+
+<!----------------------------------- ANCHOR ------------------------------>
+
+<a name="TOP_PAGE"></a>
+<a href="#BOTTOM_PAGE">
+<img
+<img src="ASSESST/IMAGE/ARROW_DOWN.png" "30PX" width="7%" align="right"> </a>
+
+<!----------------------------------- ANCHOR ------------------------------>
+<!--------------------------- java -------------------------------->
+
+<script>
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-------------------------------------- java ---------------------------->
+
+<br><br><br>
+
+<!---------------------------------- NESTLED LIST ------------------------->
+
+
+<tr>
+    <th> 
+	<h2> Some of the products that we sell from selected brands:</h2>
+
+<font="arial">
+<ul>
+  <li><b> Farm Fresh Milk </b></li>
+      <ul>
+      <li>Farm Fresh Yogurt </li>
+      <li>Farm Fresh UHT Flavoured Milk </li>
+      <li>Farm Fresh Susu Kambing </li>
+    </ul>
+
+<br>
+
+  <li><b> Marigold HL Milk</b></li>
+    <ol type="1">
+      <li> Marigold Yogurt </li>
+      <li> Marigold HL Flavoured Milk </li>
+      <li>Marigold Condensed Milk</li>
+    </ol>
+ 
+<br>
+
+  <li><b>Dutch Lady Milk</b></li>
+    <ol type="a">
+        <li>Dutch Lady Yogurt</li>
+        <li>Dutch Lady Special Collection Flavoured Milk</li>
+        <li>Dutch Lady Marvel Series</li>
+    </ul>
+</th>
+
+<!---------------------------------- NESTLED LIST ------------------------->
+
+<br>
+
+<!-------------------------------- FARM FRESH ----------------------------------->
+
+<h2> FARM FRESH MILK : </h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Farm Fresh Yogurt')"> Farm Fresh Yogurt  </button>
+  <button class="btn" onclick="filterSelection('Farm Fresh Flavoured Milk')"> Farm Fresh Flavoured Milk  </button>
+  <button class="btn" onclick="filterSelection('Farm Fresh Susu Kambing')"> Farm Fresh Susu Kambing </button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Farm Fresh Yogurt">
+    
+<div class="content">
+      <img src="ASSESST/IMAGE/FARMFRESHYOGURT.png" alt="FARMFRESHYOGURT" style="width:100%">
+      <h5> Farm Fresh Yogurt </h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Farm Fresh Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/FARMFRESHDATES.png" alt="FARMFRESHDATES" style="width:100%">
+      <h5>Farm Fresh UHT Fresh Milk with Dates</h5>
+      <h4> </h4>
+    </div>
+ </div>
+
+  <div class="column Farm Fresh Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/FARMFRESHCHOCOLATES.png" alt="FARMFRESHCHOCOLATES" style="width:100%">
+      <h5>Farm Fresh UHT Fresh Milk with Chocolates</h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Farm Fresh Susu Kambing">
+    <div class="content">
+      <img src="ASSESST/IMAGE/FARMFRESHSUSUKAMBING.png" alt="FARMFRESHSUSUKAMBING" style="width:100%">
+     <h5> Farm Fresh Susu Kambing </h5>
+      <h4> </h4>
+    </div>
+  </div>
+ 
+<!-- END GRID -->
+</div>
+
+<!-------------------------------- FARM FRESH ----------------------------------->
+
+<br><br>
+
+<!-------------------------------- HL MILK ----------------------------------->
+
+<h2> MARIGOLD HL MILK : </h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Marigold HL Yogurt')"> Marigold HL Yogurt  </button>
+  <button class="btn" onclick="filterSelection('Marigold HL Flavoured Milk')"> Marigold HL Flavoured Milk </button>
+  <button class="btn" onclick="filterSelection('Marigold Condensed Milk')"> Marigold Condensed Milk </button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Marigold HL Yogurt">
+    
+<div class="content">
+      <img src="ASSESST/IMAGE/HLYOGURT.png" alt="HLYOGURT" style="width:100%">
+      <h5> Marigold HL Yogurt Fat Free </h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Marigold HL Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/HLSTOBERI.png" alt="HLSTOBERI" style="width:100%">
+      <h5>Marigold HL Strawberry Flavoured Milk</h5>
+      <h4> </h4>
+    </div>
+ </div>
+
+  <div class="column Marigold HL Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/HLPUTIH.png" alt="HLPUTIH" style="width:100%">
+      <h5>Marigold HL Chocolate Flavoured Milk</h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Marigold Condensed Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/HLCONDENSED.png" alt="HLCONDENSED" style="width:100%">
+     <h5> Marigold Sweetend Cream Condensed Milk </h5>
+      <h4> </h4>
+    </div>
+  </div>
+ 
+<!-- END GRID -->
+</div>
+
+<!-------------------------------- HL MILK----------------------------------->
+
+<br><br>
+
+<!-------------------------------- DUTCH LADY MILK ----------------------------------->
+
+<h2> DUTCH LADY MILK : </h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Dutch Lady Yogurt')"> Dutch Lady Yogurt  </button>
+  <button class="btn" onclick="filterSelection('Dutch Lady Special Collection Flavoured Milk')"> Dutch Lady Special Collection Flavoured Milk </button>
+  <button class="btn" onclick="filterSelection('Dutch Lady Marvel Series')"> Dutch Lady Marvel Series </button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Dutch Lady Yogurt">
+    
+<div class="content">
+      <img src="ASSESST/IMAGE/DUTCHYOGURT.png" alt="DUTCHYOGURT" style="width:100%">
+      <h5> Dutch Lady Yogurt with Variety of Flavour </h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Dutch Lady Special Collection Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/DUTCHKURMA.png" alt="DUTCHKURMA" style="width:100%">
+      <h5>Dutch Lady pecial Collection Flavoured Milk : Kurma </h5>
+      <h4> </h4>
+    </div>
+ </div>
+
+  <div class="column Marigold HL Flavoured Milk">
+    <div class="content">
+      <img src="ASSESST/IMAGE/DUTCHBANANA.png" alt="DUTCHBANANA" style="width:100%">
+      <h5>Dutch Lady pecial Collection Flavoured Milk : Banana </h5>
+      <h4></h4>
+    </div>
+  </div>
+
+  <div class="column Dutch Lady Marvel Series">
+    <div class="content">
+      <img src="ASSESST/IMAGE/DUTCHMARVEL.png" alt="DUTCHMARVEL" style="width:100%">
+     <h5> Dutch Lady Marvel Series </h5>
+      <h4> </h4>
+    </div>
+  </div>
+ 
+<!-- END GRID -->
+</div>
+
+<!-------------------------------- DUTCH LADY MILK----------------------------------->
+
+
+<center>
+  <a href="https://wa.link/umxcef" target="_blank"> <img src="ASSESST/IMAGE/BUTTON.png" width="70%"> </a>
+</center>
+
+<!-------------------------------- JAVA ----------------------------------->
+
+<SCRIPT>
+
+filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+
+</SCRIPT>
+
+
+<br><br><br><br>
+
+<!----------------------------------- ANCHOR ------------------------------>
+<a name="BOTTOM_PAGE"></a>
+<a href="#TOP_PAGE">
+<img
+<img src="ASSESST/IMAGE/ARROW_UP.png" height="70PX" width="7%" align="right"></a>
+<BR>
+<!----------------------------------- ANCHOR ------------------------------>
+
+<BR>
+<BR>
+<BR><BR>
+
+<!-------------------------------- FOOTER --------------------------------->
+
+<footer align="center"><FONT SIZE="6PX">
+<br>
+	<a name="WHATSAPP">   </a>
+<a href="https://wa.link/xkaeco" target="_blank"> <img src="ASSESST/IMAGE/WHATSAPP.png" width="3%"> </a>
+
+	<a name="INSTAGRAM">   </a>
+<a href="https://www.instagram.com/dutchladymy/" target="_blank"> <img src="ASSESST/IMAGE/INSTAGRAM.png" width="3%"> </a>
+
+	<a name="PINTEREST">   </a>
+<a href="https://www.pinterest.com/search/pins/?q=MILK&rs=typed" target="_blank"> <img src="ASSESST/IMAGE/PINTEREST.png" width="3%"> </a>
+
+	<a name="YOUTUBE">   </a>
+<a href="https://www.youtube.com/watch?v=pfAehvpSjRU" target="_blank"> <img src="ASSESST/IMAGE/YOUTUBE.png" width="3%"> </a>
+
+  <p> <B> Copyright by @ MILK.milktrader 2023 </B> </p>
+</footer>
+
+<!-------------------------------- FOOTER --------------------------------->
+
+</body>
+</html>
